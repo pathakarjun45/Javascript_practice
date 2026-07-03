@@ -70,6 +70,14 @@ name2 = "Arjun Pathak";
 console.log(name1);
 console.log(name2);
 
+let user1 = "Sumant";
+let user2 = user1;
+
+user2 = "Arjun Pathak";
+
+console.log(user1);
+console.log(user2);
+
 const user1 = {
   name: "Sumant",
 };
