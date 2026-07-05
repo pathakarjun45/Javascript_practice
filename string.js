@@ -4,14 +4,14 @@ console.log(`my name is ${name} and id no. is ${Number}`);
 
 const myName = new String("Arjun Pathak");
 
-// console.log(myName.length);
-// console.log(myName.__proto__);
-// console.log(myName[4]);
-// console.log(myName.toLowerCase());
-// console.log(myName.toUpperCase());
-// console.log(myName.indexOf("P"));
-// console.log(myName.charAt(11));
-//console.log(myName.trim());
+console.log(myName.length);
+console.log(myName.__proto__);
+console.log(myName[4]);
+console.log(myName.toLowerCase());
+console.log(myName.toUpperCase());
+console.log(myName.indexOf("P"));
+console.log(myName.charAt(11));
+console.log(myName.trim());
 
 const newName = name.substring(0, 5);
 console.log(newName);
@@ -31,3 +31,25 @@ console.log(url.includes("Youtube"));
 
 console.log(name.split("_"));
 console.log(name.bold());
+
+let Name = "Sumant";
+
+console.log(Name.length); //6
+console.log(Name.toUpperCase()); //SUMANT
+console.log(Name.toLowerCase()); //sumant
+console.log(Name.trim()); //Sumant
+
+console.log(Name.slice(1, 4)); //uma
+
+console.log(Name.replace("Sum", "A")); //Aant
+console.log(Name.split(""));
+
+const text = "JavaScript"; //4,10
+console.log(text.slice(4, 10)); // Script
+
+const msg = "Hello World";
+console.log(msg.replace("world", "Arjun Pathak")); //Hello Arjun Pathak
+const user = "    Aman    ";
+console.log(user.trim());
+const sentence = "I love JavaScript";
+console.log(sentence.toUpperCase("I love")); //
