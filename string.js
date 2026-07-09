@@ -53,3 +53,6 @@ const user = "    Aman    ";
 console.log(user.trim());
 const sentence = "I love JavaScript";
 console.log(sentence.toUpperCase("I love")); //
+
+const str = "Arjun";
+console.log(str.slice(2, 4));
